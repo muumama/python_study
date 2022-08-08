@@ -14,4 +14,8 @@ def make_comma(number):
             num_comma = num_comma - 1
         n = n - 1
 		# 콤마를 다 찍고 남은 앞의 숫자를 더해주면 완성
+
     print(number[:n+1]+new_number)
+
+number = int(input("숫자를 입력하세요:"))
+make_comma(number)
