@@ -1,4 +1,4 @@
-11021번
+# 11021번
 a= int(input())
 import sys
 n = 1
