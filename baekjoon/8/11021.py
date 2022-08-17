@@ -1,9 +1,6 @@
 # 11021번
-a= int(input())
-import sys
-n = 1
+a = int(input())
 for i in range(a):
-  b,c = map(int,sys.stdin.readline().split())
-  d = b + c
-  print(f'Case #{n}: {d}')
-  n = n+1
+  import sys
+  b,c = map(int,sys.stdin.readline().split())  
+  print(f'Case #{i+1}: {b} + {c} = {b+c}')
