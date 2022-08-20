@@ -1,10 +1,8 @@
 #2562
-a = [1,1,1,1,1,1,1,1]
-print(len(a))
-'''
+
 num = []
 for i in range(9):
-  num.append(input())
+  num.append(int(input()))
 
 n = 0
 b = num[0]
@@ -15,4 +13,3 @@ for i in range(len(num)):
 
 print(b,
       n-1)
-'''
