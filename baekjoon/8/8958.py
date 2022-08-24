@@ -18,8 +18,9 @@ for i in range(a):
                 score_plus = score_plus + 1
             else:
                 score_plus = 1
+        else:
+            score_plus = 0
         score = score + score_plus
-        i = i + 1
         n = j - 1
     score_list.append(score)
 print(score_list)
