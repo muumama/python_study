@@ -1,6 +1,6 @@
 #2675
-num = int(input())
-for i in range(num):
+nums= int(input())
+for i in range(nums):
     r,s = input().split()
     text = ''
     for j in s:
