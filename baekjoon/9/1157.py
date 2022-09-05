@@ -1,7 +1,5 @@
-
 word = input().upper()
 word_uni = list(set(word))
-
 
 cnt_list = []
 for i in word_uni:

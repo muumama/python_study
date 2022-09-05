@@ -1,8 +1,10 @@
 #2675
-nums= int(input())
-for i in range(nums):
-    r,s = input().split()
-    text = ''
+
+num = int(input())
+
+for i in range(num):
+    r, s = input().split()
     for j in s:
-        text += int(r)*j
-    print(text)
+        print(j*int(r),end='')
+    print()
+    
