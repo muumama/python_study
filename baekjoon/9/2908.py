@@ -2,10 +2,6 @@
 
 a, b = input().split()
 
-a = list(str(a))
-n = 1
-a_reverse = []
-for i in range(len(a)):
-    a_reverse += a[-n]
-    n = n + 1
-    print(a_reverse)
+a = a[::-1]
+b = b[::-1]
+print(max(a,b))
