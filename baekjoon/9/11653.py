@@ -1,8 +1,10 @@
 n = int(input())
 
-for i in range(2,n):
+i=2
+while n!=1:
     if n%i == 0:
         print(i)
-        n = n/i
-        
+        n = n//i
+    else:
+        i +=1
         
