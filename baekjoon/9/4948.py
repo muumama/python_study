@@ -1,18 +1,18 @@
+
 while True:
+
     n = int(input())
+    a = [True] * (2*n + 1)
+    m = int((2*n)**0.5)
     if n == 0:
         break
-    sosu = 0
-    for i in range(n,2*n+1):
-        if i == 1:
-            continue
-        elif i == 2:
-            sosu += 1
-            continue
-        for j in range(2,int(i**0.5+1)):
-            if i % j == 0:
-                break
-        else:
-            sosu += 1
-    print(sosu)
+    elif n == 1:
+        print(1)
+        continue
+    for i in range(2, m + 1):
+        if a[i] == True:
+            for j in range(i + i, 2*n + 1, i):
+                a[j] = False
 
+    else:
+        print(len([i for i in range(n, 2*n + 1) if a[i] == True]))
