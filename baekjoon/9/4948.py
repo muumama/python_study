@@ -15,4 +15,4 @@ while True:
                 a[j] = False
 
     else:
-        print(len([i for i in range(n, 2*n + 1) if a[i] == True]))
+        print(len([i for i in range(n+1, 2*n + 1) if a[i] == True]))
