@@ -6,5 +6,5 @@ while n!=1:
         print(i)
         n = n//i
     else:
-        i +=1
+        i += 1
         
