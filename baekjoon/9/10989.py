@@ -12,3 +12,4 @@ for i in range(10001):
         for j in range(array[i]):
             print(i)
             
+#comment 112
