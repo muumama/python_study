@@ -18,7 +18,7 @@ elif a < 0 :
 #중앙값
 print(num_list[n//2])
 
-#최빈값
+#최빈값(Counter().most_common())
 cnt = Counter(num_list)
 tmp = cnt.most_common()
 
