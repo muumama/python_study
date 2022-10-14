@@ -10,3 +10,4 @@ for i in range(len(num_list)):
 
 for i in numbers:
   print(num_dict[i],end='')
+  
