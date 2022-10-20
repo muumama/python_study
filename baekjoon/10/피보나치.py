@@ -1,7 +1,7 @@
-def fibonacci(n):
-    if n <= 1:
-        return n
-    return fibonacci(n-1)+fibonacci(n-2)
+def fibonacci(num):
+    if num <= 1:
+        return num
+    return fibonacci(num-1)+fibonacci(num-2)
 
-n = int(input())
-print(fibonacci(n))
+num = int(input())
+print(fibonacci(num))
