@@ -40,4 +40,4 @@ merge_sort(a)
 if len(ans) >= k:
     print(ans[k-1])
 else:
-    print(-1)
+    print(-1)'''
