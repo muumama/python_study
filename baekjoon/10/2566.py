@@ -9,8 +9,8 @@ for i in range(9):
   ver_index = a.index(a_max)
   ver_index_list.append(ver_index)
   
-all_max = max(max_list)
-wid_index = max_list.index(all_max)
+allmax = max(max_list)
+wid_index = max_list.index(allmax)
 
-print(all_max)
+print(allmax)
 print(wid_index+1, ver_index_list[wid_index]+1)
