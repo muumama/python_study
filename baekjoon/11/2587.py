@@ -1,4 +1,4 @@
-#2587
+#25870
 nlist = []
 for i in range(5):
     n = int(input())
